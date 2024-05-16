@@ -1,0 +1,80 @@
+/* 
+BEM = Bloque Elemento Modificador 
+
+BEM es una metodología de nomenclatura de clases CSS que nos ayuda a escribir CSS más escalable y reutilizable.
+
+Se usa siempre CLASS nunca ID
+
+Usamos las Clases para aplicar estilos.
+Usamos los Ids para aplicar funcionalidad (javascript).
+
+.bloque
+.bloque__elemento
+.bloque__elemento--modificador
+
+1. No usar ids
+2. No usar etiquetas
+3. Que todo sea un key selector (seleccionar justo el elemento al cual se le darán estilos)
+*/
+
+/* Forma clásica */
+/* .cards {
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px gray;
+    border-radius: 5px;
+}
+
+.cards .card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+.cards .card h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards .card a {
+    background: green;
+    color: white;
+    text-decoration: none;
+} */
+
+/* BEM */
+.cards {
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px gray;
+    border-radius: 5px;
+}
+
+.cards__card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card__link {
+    background: green;
+    color: white;
+    text-decoration: none;
+}
+
+.card__link--red {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}

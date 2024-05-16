@@ -1,0 +1,19 @@
+:root{
+    --main-color: red;
+    --font: Verdana;
+    --font-size: 45px;
+}
+
+h1{
+    color: var(--main-color);
+    font-family: var(--font);
+    font-size: var(--font-size);
+}
+
+p{
+    font-family: var(--font);
+}
+
+a{
+    color: var(--main-color);
+}

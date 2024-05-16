@@ -1,0 +1,13 @@
+body{
+    height: 1200px;
+}
+
+.box{
+    font-size: 20px;
+    width: 50%;
+    height: 50%;
+    /* margin: 0 auto; */
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+}

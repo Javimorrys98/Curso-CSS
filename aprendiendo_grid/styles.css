@@ -1,0 +1,48 @@
+body {
+    background: antiquewhite;
+}
+
+.grid-layout {
+    display: grid;
+    background-color: lightgreen;
+    border: 1px solid black;
+    height: 650px;
+    grid-template-areas:
+        "cabecera cabecera"
+        "menu menu"
+        "contenido lateral"
+        "footer footer";
+    grid-template-rows: 20% 10% auto 10%;
+}
+
+.caja {
+    border: 4px solid black;
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
+
+.c1 {
+    grid-area: cabecera;
+    background: lightblue;
+}
+
+.c2 {
+    grid-area: menu;
+    background: lightyellow;
+}
+
+.c3 {
+    grid-area: contenido;
+    background: lightsalmon;
+}
+
+.c4 {
+    grid-area: lateral;
+    background: lightgreen;
+}
+
+.c5 {
+    grid-area: footer;
+    background: lightseagreen;
+}
